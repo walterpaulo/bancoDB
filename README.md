@@ -23,7 +23,7 @@ create user dev@localhost identified by 'SenhaAqui';
 ````
 Novo usuário, acesso externo:
 ````
-create user dev@'0.0.0.0' identified by 'SenhaAqui';
+create user dev@'%.%.%.%' identified by 'SenhaAqui';
 ````
 
 Vinculando permissão de acesso do usuário ao banco de dados, acesso local:
@@ -33,7 +33,7 @@ grant all privileges on projetoWalter.* to dev@localhost;
 
 Vinculando permissão de acesso do usuário ao banco de dados, acesso externo:
 ````
-grant all privileges on projetoWalter.* to dev@'0.0.0.0';
+grant all privileges on projetoWalter.* to dev@'%.%.%.%';
 ````
 
 Para sair:
