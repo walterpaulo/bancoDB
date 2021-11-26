@@ -5,9 +5,9 @@
 ----
 
 
-
-  <img src="https://github.com/walterpaulo/bancoDB/blob/main/image/dbremoto.png?raw=true" width="350" title="Acessar banco de dados remotamento">
-
+<p align="center">
+  <img src="https://github.com/walterpaulo/bancoDB/blob/main/image/dbremoto.png?raw=true" title="Acessar banco de dados remoto">
+</p>
 
 ## CÓDIGO:
 
@@ -16,7 +16,7 @@ Acessar o banco
 # mysql -uroot -p
 ````
 
-Criando um banco de dados, substituir banco projetoWaltser:
+Criando um banco de dados, substituir banco projetoWalter:
 ````
 create database projetoWalter character set utf8 collate utf8_bin;
 ````
