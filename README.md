@@ -3,7 +3,11 @@
 
 ### Acessar banco de dados Remoto no Mysql/MariaDB
 ----
-![alt tag](image/dbremoto.png)
+
+
+<p align="center">
+  <img src="image/dbremoto.png" width="350" title="hover text">
+</p>
 
 ## CÓDIGO:
 
